@@ -72,7 +72,7 @@ function init() {
     
     const torusGeometry = new THREE.TorusGeometry( 25, 10, 32, 64 );
     const torusMesh_03 = new THREE.Mesh( torusGeometry, material );
-    torusMesh_03.scale.set(10, 10, 10);
+    torusMesh_03.scale.set(5, 10, 10);
     torusMesh_03.position.set(0, 0, 0);
     scene.add( torusMesh_03 );
 
